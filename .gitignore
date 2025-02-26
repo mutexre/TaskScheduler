@@ -1,0 +1,58 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Virtual environment
+venv/
+.env/
+*.venv
+
+# Logs and debug
+*.log
+logs/
+debug.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+
+# Python-specific
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing / Coverage reports
+.coverage
+.tox/
+.nox/
+*.cover
+coverage.xml
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy type checking cache
+.mypy_cache/
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Environment-specific files
+.env
+.envrc
+*.env
+*.ini
+*.toml
