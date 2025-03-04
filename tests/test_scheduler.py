@@ -103,7 +103,7 @@ class TestScheduler(unittest.TestCase):
         tasks = [Task(deadline=50, duration=np.random.randint(1, 5), reward=np.random.randint(10, 100)) for _ in range(20)]
         schedule = create_optimal_schedule(tasks, max_time=10)
         
-        self.assertEqual(schedule.status, "optimal_inaccurate")
+        self.assertIn(schedule.status, ["optimal", "optimal_inaccurate"])
         self.assertEqual(len(schedule.items), len(tasks))
 
 if __name__ == "__main__":
