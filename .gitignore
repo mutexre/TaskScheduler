@@ -55,4 +55,3 @@ Thumbs.db
 .envrc
 *.env
 *.ini
-*.toml
